@@ -1,7 +1,7 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
-/dist
+# /dist Comentei esta linha para que a dist apareça na raiz do projeto
 /tmp
 /out-tsc
 /bazel-out
