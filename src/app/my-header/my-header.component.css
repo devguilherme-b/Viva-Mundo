@@ -1,0 +1,70 @@
+.my-header{
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a img {
+    animation: girar 1s ease-in-out forwards;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    color: rgb(92, 228, 223);
+    text-decoration: none;
+    text-decoration-style: solid;
+    opacity: 0;
+    animation: aparecerDeBaixo 1.2s ease-out forwards;
+}
+
+@keyframes aparecerDeBaixo {
+    0% {
+        opacity: o;
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(-3deg);
+    }
+}
+
+@media (max-width: 349px) {
+    nav {
+        font-size: larger;
+    }
+    .logo{
+        width: 55px;
+        height: 55px;    
+    }
+}
+
+@media (min-width: 350px) and (max-width: 425px) {
+    nav {
+        font-size: x-large;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;    
+    }
+}
+
+@media (min-width: 426px) {
+    nav {
+        font-size: xx-large;
+    }
+}

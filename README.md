@@ -1,59 +1,61 @@
-# VivaMundo
+# Viva Mundo 🌍
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.3.
+**Viva Mundo** é um site moderno para empresas de viagens, oferecendo uma experiência de navegação intuitiva e atraente.
 
-## Development server
+## 🗒️Tabela de conteúdo
+1. [Descrição](#descrição)
+2. [Vantagens](#vantagens)
+3. [Tecnologias](#tecnologias)
+4. [Instalação](#instalação)
+5. [Contribuição](#contribuição)
+6. [Contatos](#contatos)
 
-To start a local development server, run:
 
+
+## Descrição
+
+**Viva Mundo** é um site desenvolvido com o objetivo de oferecer
+aos usuários uma interface intuitiva para explorar destinos, planejar viagens e conhecer os serviços oferecidos plea empresa.
+
+## Vantagens
+
+<ul>
+    <li> Divulgue sua marca;</li>
+    <li> Adicione suas redes sociais;</li>
+    <li> Adicione suas redes para contato;
+    <li> Fidelize mais clientes com um site profissional.
+</ul>
+
+## Tecnologias
+• HTML
+
+• CSS
+
+• JavaScript
+
+•  [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+
+## Instalação
+
+1. clone o repositório
 ```bash
-ng serve
+git clone https://github.com/devguilherme-b/Viva-Mundo.git 
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+2. Navegue até o repositório clonado
 ```bash
-ng generate component component-name
+cd Viva-Mundo´
 ```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+## Contribuição
+Contribuições sempre serão bem-vindas!
+1. Crie uma nova branch:
 ```bash
-ng generate --help
+git checkout -b feature/nova-funcionalidade
 ```
+2. Deixe um comentário em: <br> dev.guilhermebarbos@gmail.com
+3. Você também pode entrar em [contato](#contatos)
 
-## Building
+## Contatos
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desenvolvido por <a href="https://github.com/devguilherme-b">DEVGuilherme</a> <br>
+Entre em contato pelo e-mail: dev.guilhermebarbos@gmail.com <br>
+Site: <a href="https://devguilherme.com.br">devguilherme.com.br</a>

@@ -1,0 +1,93 @@
+.my-home{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    background-color: rgb(161, 161, 161, 0.5);
+    background-image: url(../../assets/images/moca-viajem-mundo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.my-home-content{
+    position: absolute;
+    color: rgb(89, 89, 89);
+}
+
+.cta-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    a{
+        width: 250px;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+        border-radius:  30px 30px 30px 0;
+        text-decoration: none;
+        background-color: rgb(48, 48, 185);
+        color: beige;
+        animation: aparecerDeBaixo 2s ease-out forwards;
+    }
+    a:hover{
+        background-color: beige;
+        color:  rgb(48, 48, 185);
+        zoom: 1.05;
+        transition: 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+}
+
+
+@media (max-width: 349px) {
+    .my-home {
+        font-size: small;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .my-home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+    }
+
+    .text-home{
+       border-left: 2px solid rgb(48, 48, 185);
+       padding-left: 2%;
+       text-align: left;
+       background-color: rgb(161, 161, 161, 0.5);
+    }
+
+    .cta-links{
+        a{
+            width: 200px;
+        }
+    }
+}
+
+@media (min-width: 350px) and (max-width: 425px) {
+    .my-home{
+        height: 100vh;
+    }
+
+    .text-home{
+        border-left: 2px solid rgb(48, 48, 185);
+        padding-left: 2%;
+        text-align: left;
+        background-color: rgb(222, 247, 239, 0.3);
+    }
+}
+
+@media (min-width: 426px) {
+    .text-home{
+        border-left: 2px solid rgb(48, 48, 185);
+        padding-left: 2%;
+        text-align: left;
+    }
+}

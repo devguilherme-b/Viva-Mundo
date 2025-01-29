@@ -1,0 +1,59 @@
+.depoiments {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container-depoiments {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 5%;
+}
+
+.card-depoiment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 19, 148);
+    min-width: 100px;
+    max-width: 500px;
+    height: 20px;
+    padding: 6%;
+    border-radius: 60px 30px 70px 0;
+    color: rgb(197, 197, 197);
+    font-size: small;
+    opacity: 1;
+}
+
+@keyframes forLeft {
+    0% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+
+    90% {
+        transform: translateX(-200%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-220);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .card-depoiment {
+        animation: forLeft 10s linear infinite;
+        transition: 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        width: 200px;
+    }
+}

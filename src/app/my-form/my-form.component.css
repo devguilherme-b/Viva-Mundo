@@ -1,0 +1,51 @@
+.my-form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    font-size:  larger;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(56, 56, 64);
+    border-radius: 40px;
+    width: 50%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+
+    label{
+        margin-top: 10px;
+    }
+
+    input{  
+        border-radius: 8px;
+        border: 1px solid rgb(93, 93, 96);
+        padding: 4%;
+    }
+}
+
+.space-message{
+    height: 30px;
+}
+
+@media (max-width: 500px)
+{
+    .my-form{
+        text-align: left;
+        h2{
+            padding-left: 20px;
+        }
+    }
+
+    form{
+        border: none;
+        margin-top: 10px;
+    }
+}
