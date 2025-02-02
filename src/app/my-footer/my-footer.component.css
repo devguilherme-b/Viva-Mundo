@@ -11,6 +11,10 @@
         list-style-type: none;
         color: rgb(104, 104, 104);
     }
+    a:hover{
+        color: rgb(157, 10, 255);
+    }
+    
 }
 
 .content-footer{
@@ -29,6 +33,9 @@
         border-right: 1px solid blueviolet;
         padding-right: 20px;
         width: 300px;
+        img{
+            width: 100px;
+        }
     }
 }
 
@@ -58,6 +65,46 @@
             li {
 
                 padding: 5px;
+            }
+            img{
+                width: 90px;
+            }
+        }
+
+        div {
+            margin: 4%;
+        }
+    }
+}
+
+@media (min-width: 501px) and (max-width: 700px)
+{
+    .footer{
+        p{
+            text-align: center;
+        }
+    }
+
+    .content-footer {
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-around;
+        text-align: center;
+        font-size: smaller;
+
+        nav {
+            border-right: 1px solid blueviolet;
+            border: none;
+            width: auto;
+            padding-right: 0;
+
+            li {
+
+                padding: 5px;
+            }
+
+            img{
+                width: 80px;
             }
         }
 

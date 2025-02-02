@@ -30,17 +30,27 @@
         zoom: 1.05;
         transition: 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
+
+    .cta-secondary{
+        color: rgb(49, 55, 100);
+        background-color: rgb(183, 183, 220);
+    }
 }
 
 @media (max-width: 500px)
 {
     .cta-finish{
-        font-size: x-small;
         text-align: center;
+        font-size: 16px;
+        height: 60vh;
+
+        p{
+            padding: 5px 10px ;
+        }
     }
     .cta-links{
         a{
-            width: 130px;
+            width: 170px;
         }
     }
 }

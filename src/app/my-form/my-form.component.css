@@ -13,9 +13,9 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(56, 56, 64);
+    border: 1px solid rgb(56, 56, 64);
     border-radius: 40px;
-    width: 50%;
+    width: 40%;
     height: auto;
     padding: 1%;
     margin: 1%;
@@ -33,19 +33,66 @@ form{
 
 .space-message{
     height: 30px;
+    margin-bottom: 20px;
+}
+
+.cta-finish{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: x-large;
+    background-image: linear-gradient(#e4e4e4, rgba(242, 255, 0, 0.8), #e4e4e4);
+}
+
+.cta-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    a{
+        width: 250px;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+        border-radius:  30px 30px 30px 0;
+        text-decoration: none;
+        background-color: rgb(48, 48, 185);
+        color: beige;
+        animation: aparecerDeBaixo 2s ease-out forwards;
+    }
+    a:hover{
+        background-color: beige;
+        color:  rgb(48, 48, 185);
+        zoom: 1.05;
+        transition: 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    
+    .cta-secondary{
+        color: rgb(49, 55, 100);
+        background-color: rgb(183, 183, 220);
+    }
 }
 
 @media (max-width: 500px)
 {
     .my-form{
-        text-align: left;
+        height: 70vh;
+        text-align: justify;
         h2{
-            padding-left: 20px;
+            padding: 10px;
         }
     }
 
     form{
         border: none;
         margin-top: 10px;
+    }
+
+    .cta-links{
+        a{
+            width: 170px;
+        }
     }
 }
