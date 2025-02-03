@@ -34,7 +34,7 @@
         background-color: beige;
         color:  rgb(48, 48, 185);
         zoom: 1.05;
-        transition: 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
     }
 
     .cta-secondary{
@@ -82,7 +82,7 @@
 
 @media (min-width: 350px) and (max-width: 425px) {
     .my-home{
-        height: 100vh;
+        height: 70vh;
     }
 
     .text-home{
