@@ -12,7 +12,7 @@
         color: rgb(104, 104, 104);
     }
     a:hover{
-        color: rgb(157, 10, 255);
+        color: rgb(169, 10, 255);
     }
     
 }
@@ -42,6 +42,10 @@
 .credits-development {
     margin: 5%;
     text-align: center;
+
+    a{
+        color: blueviolet;
+    }
 }
 
 @media (max-width: 500px) {

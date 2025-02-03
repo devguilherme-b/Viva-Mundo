@@ -19,6 +19,10 @@
     animation: slideLeft 10s linear infinite;
 }
 
+.container-depoiments:hover{
+    animation-play-state: paused;
+}
+
 .card-depoiment {
     display: flex;
     flex-direction: column;
